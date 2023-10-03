@@ -1,0 +1,1 @@
+This is some langchain and huggingface code that takes an image and produces a story in two steps. The first step utilizes an image-to-text model that was downloaded a run locally. The second step takes that string and uses it as part of a prompt in a text-to-text llm model. The second model uses an API request to a model hosted on huggingface.
